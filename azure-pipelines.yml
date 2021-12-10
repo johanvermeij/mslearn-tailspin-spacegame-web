@@ -22,7 +22,6 @@ steps:
     packageType: sdk
     version: '5.x'
 
-- script: 'cd /Users/johan/Desktop/VSC'
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:

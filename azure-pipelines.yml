@@ -22,7 +22,7 @@ steps:
     packageType: sdk
     version: '5.x'
 
-- script: 'npm config set prefix /usr/local'
+- script: 'npm config set prefix /usr/local/bin'
 
 - task: Npm@1
   displayName: 'Run npm install'
